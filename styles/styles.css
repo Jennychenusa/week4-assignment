@@ -1,0 +1,90 @@
+html,body{
+  margin: 0;
+  padding: 0;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+}
+ 
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: table;
+} 
+
+
+#header {
+  margin: 2em;
+  border-bottom: 2px solid #630;
+}
+#header h1 {
+  font-size: 2.5em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:#630;
+  font-weight: normal;
+}
+#header h2{
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#mainContent{
+                       /* overflow: hidden; */
+  margin-left: 2em;
+  margin-right: 2em;
+}
+#mainContent img{
+  float: left;
+  margin-right: 15px;
+}
+/*.....interview........*/
+#interview {
+  margin:15px 2em 5px 2em;
+}
+dt {
+  color:#630;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+dd {
+  margin-bottom: 10px;
+}
+/*......Artwork........*/
+#artwork {
+  margin: 0 2em 5px 2em;
+}
+#artwork h2 {
+  color:#630;
+  margin-bottom: 5px;
+}
+.gallery {
+  float: left;
+  margin-top: 15px;
+  margin-right: 15px;
+  text-align: center;
+  
+}
+.gallery img{
+  width: 80%;
+  margin-left: 50px;
+  margin-right:50px;
+}
+
+#footer {
+  line-height: 1.5em;
+  text-align: center;
+  background: #630;
+  color: white;
+  padding: 5px;
+  margin: 20px 2em;
+}
+ 
+
+
